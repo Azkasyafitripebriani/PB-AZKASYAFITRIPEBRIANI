@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "954149330216",
+    "project_id": "pempograman-bergerak",
+    "storage_bucket": "pempograman-bergerak.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954149330216:android:0091e5105f57165e0b441d",
+        "android_client_info": {
+          "package_name": "com.example.helloworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEFhQws0EMH97zZqPwuI8eE_70laWW4yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
