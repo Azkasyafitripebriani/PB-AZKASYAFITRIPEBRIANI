@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silakan login terlebih dahulu"
+        android:id="@+id/tv_judul"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="serif">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengguna :"
+        android:id="@+id/tv_subjudul"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp">
+
+    </TextView>
+    <EditText
+        android:text="Masukan nama pengguna"
+        android:id="@+id/edit_1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="serif"
+        android:textSize="6pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kata sandi :"
+        android:id="@+id/subjudul_2"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:fontFamily="serif">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan kata sandi"
+        android:id="@+id/edit_2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textSize="6pt"
+        android:inputType="textPersonName">
+
+    </EditText>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingat saya"
+        android:textSize="8pt"
+        android:textStyle="bold">
+
+    </CheckBox>
+
+    <Button
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="8pt"
+        android:backgroundTint="#2196"
+        android:textColor="@color/black"
+        android:text="Login">
+
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lupa kata sandi anda?"
+        android:textAlignment="center"
+        android:textSize="7pt"
+        android:fontFamily="serif"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#0000FF">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?"
+            android:textStyle="bold"
+            android:textSize="7pt">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Daftar sekarang"
+            android:textSize="7pt"
+            android:textColor="#0000FF"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
